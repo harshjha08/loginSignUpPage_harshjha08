@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Question</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="main-container">
+         <div class="innerContainer1 ">
+            <div class="input-box">
+                <br>
+                <h1>Register</h1>
+                <br>
+                <div class="input-items">
+                     
+                    
+                    <input type="text" id="fullName" placeholder="Name" required>
+                    <br>
+                     
+                     
+                     <input type="email" id="email" placeholder="Email" required>
+                     <br>
+                      
+                      
+                      <input type="password" id="Cpass" placeholder="Password" required>
+                      <br>
+                       <div class="btns">
+                    <button type="button" id="btn">Create</button>
+                    <button onclick="showLogin()" type="button" id="btn">Login</button>
+                </div>
+  <p>---------------------------------OR-----------------------------------</p> 
+  <br>
+  <div class="icon-box">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-google"></i>
+                </div>
+                </div>
+            </div>
+        </div> 
+     <div class="innerContainer2 active">
+        <div class="input-box">
+            <br>
+            <h1> Login </h1>
+            <br>
+            <div class="input-items">
+                
+                 
+                <input type="username" id="username" spellcheck="false" placeholder="Username" required>
+                <br>
+                
+                  
+                <input type="password" id="pass"  placeholder="Password" required>
+                <br>
+                <div class="forgot">
+                <p>Forgot Password?</p> <p><a href="#"> Reset password</a></p>
+                </div>
+                <div class="btns">
+                    <button type="submit" id="btn">Log In</button>
+                    <button onclick=showRegister() type="Register" id="btn">Sign Up</button>
+                </div>
+                <p>---------------------------------OR-----------------------------------</p> 
+                
+                <br>
+                 <div class="icon-box">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-google"></i>
+                </div>
+            </div>
+        </div> 
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
