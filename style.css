@@ -9,7 +9,7 @@
   --secondary-text: #8b958b;
 
 }
-.input-wrapper {
+/* .input-wrapper {
     position: relative;
     width: 250px;
 }
@@ -21,7 +21,7 @@
     transform: translate(-50%);
     color: grey;
     cursor: pointer;
-}
+} */
 .main-container{
     display: flex;
     justify-content: center;
@@ -142,31 +142,49 @@ input::placeholder{
     
 }
 .btns{
- align-items: center;
-    justify-content: center; 
     display: flex;
+    align-items: center;
+    justify-content: center; 
+   
     margin: 30px;
-    gap: 95px;
+    gap: 100px;
    
 }
-#btn{
-    background: linear-gradient(45deg, #ff6b6b, #f06595);
+#main-btn{
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
     font-size: larger;
-    color: white;
+    color: #fff;
     padding: 5px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     height: 35px;
-    width: 90px;
+    width: 110px;
     border: none;
     outline: none;
-    border-radius: 20px;
+    border-radius: 12px;
     cursor: pointer;
-    transition: all 0.3 ease;
+    transition: all 0.3 ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 114, 255, 0.7);
+
+}
+#main-btn:hover {
+transform: scale(1.05);
+ box-shadow: 0 0 20px rgba(0, 114, 255, 0.9);
+}
+#btn{
+    background: transparent;
+    height: 35px;
+    color: #aaa;
+    border: 2px solid #555;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3 ease-in-out;
 
 }
 #btn:hover {
-transform: scale(1.05);
-background: linear-gradient(45deg,#845ef7,#5c7cfa);
+    background: rgba(255, 255, 255, 0.05);
+    border-color: #888;
+    color: #fff;
 }
 .forgot{
     display: flex;
