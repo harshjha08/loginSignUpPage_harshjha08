@@ -173,9 +173,11 @@ transform: scale(1.05);
 #btn{
     background: transparent;
     height: 35px;
+    width: 110px;
     color: #aaa;
+    font-size: larger;
     border: 2px solid #555;
-    padding: 10px 20px;
+    padding: 5px;
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3 ease-in-out;
