@@ -9,19 +9,7 @@
   --secondary-text: #8b958b;
 
 }
-/* .input-wrapper {
-    position: relative;
-    width: 250px;
-}
 
-.input-wrapper i {
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translate(-50%);
-    color: grey;
-    cursor: pointer;
-} */
 .main-container{
     display: flex;
     justify-content: center;
