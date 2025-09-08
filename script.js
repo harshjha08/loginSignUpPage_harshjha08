@@ -16,5 +16,9 @@ function successLogin(){
 function createAc(){
     var name =
     document.getElementById("fullName").value;
-    alert("Hi " + name + " You are succesfully Registerd ")
+    alert("Hi " + name + " You are succesfully Registerd ");
+    var data = 
+    document.getElementById("Cpass").value;
+    alert("Here is your Password " + data + " save this password for you future refrence" );
+    
 }
